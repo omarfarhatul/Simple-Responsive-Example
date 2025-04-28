@@ -1,0 +1,19 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    height: 350px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.row > div{
+    flex-grow: 1;
+}
+
+.vertical-college img{
+    height: 50%;
+}
